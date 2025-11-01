@@ -16,3 +16,24 @@ Small benchmark that implements **quicksort** and **mergesort** in C++, with bot
 - Python3 with `pandas` and `matplotlib`:
   ```bash
   pip install pandas matplotlib
+
+
+## BUILD
+mkdir build <br>
+cd build <br>
+cmake .. <br>
+make -j <br>
+
+## RUN 
+./parallel_sorting
+
+## PLOT
+python3 plot_results.py results.csv
+
+## Tuning
+
+- Edit input sizes inside src/main.cpp (the sizes vector).
+
+- Control OpenMP threads via:
+
+- export OMP_NUM_THREADS=4
