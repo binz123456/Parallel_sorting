@@ -1,0 +1,19 @@
+# Build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+Makefile
+parallel_sorting
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Results / plots
+results.csv
+runtime_comparison.png
+
+# Editor / OS
+*.swp
+.vscode/
+.DS_Store
